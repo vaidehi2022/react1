@@ -1,13 +1,10 @@
+function Button(props){
+    return(
+        
+            
+        <button>{props.button}</button>           
 
-export  function Button() {
-    return (
     
-     <button>
-        Click Me !!
-    </button>
-    
-    
-      );
-  }
-
-  Button();
+        );
+}
+export default Button
